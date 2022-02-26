@@ -4,4 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevFramework.Core\DevFramework.Core.csproj" />
+    <ProjectReference Include="..\DevFramework.Entities\DevFramework.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
