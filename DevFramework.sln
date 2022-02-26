@@ -3,23 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Core", "DevFramework.Core\DevFramework.Core.csproj", "{66591B9E-601C-467F-808A-F188CCF4AC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.Core", "DevFramework.Core\DevFramework.Core.csproj", "{66591B9E-601C-467F-808A-F188CCF4AC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Entities", "DevFramework.Entities\DevFramework.Entities.csproj", "{8A20A2F5-BCC4-4BB2-A6F5-10CDFBE06B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.Entities", "DevFramework.Entities\DevFramework.Entities.csproj", "{8A20A2F5-BCC4-4BB2-A6F5-10CDFBE06B8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.DataAccess", "DevFramework.DataAccess\DevFramework.DataAccess.csproj", "{9A094AC0-3D2D-4D30-87EE-FE1699AC3DB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.DataAccess", "DevFramework.DataAccess\DevFramework.DataAccess.csproj", "{9A094AC0-3D2D-4D30-87EE-FE1699AC3DB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Business", "DevFramework.Business\DevFramework.Business.csproj", "{196C6639-7370-49D8-BDC6-3A9C6D00134F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.Business", "DevFramework.Business\DevFramework.Business.csproj", "{196C6639-7370-49D8-BDC6-3A9C6D00134F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.MVCWebUI", "DevFramework.MVCWebUI\DevFramework.MVCWebUI.csproj", "{8315BF10-D1BC-4F99-B5F2-D53A270DA8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.MVCWebUI", "DevFramework.MVCWebUI\DevFramework.MVCWebUI.csproj", "{8315BF10-D1BC-4F99-B5F2-D53A270DA8E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.MVCWebUI.Test", "DevFramework.MVCWebUI.Test\DevFramework.MVCWebUI.Test.csproj", "{6EA48FD8-10BB-4C63-B377-3CF2A002B3A4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Business.Tests", "DevFramework.Business.Tests\DevFramework.Business.Tests.csproj", "{D4E5B471-B595-4424-90C3-06187AB57482}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.DataAccess.Tests", "DevFramework.DataAccess.Tests\DevFramework.DataAccess.Tests.csproj", "{860D6327-23D1-4776-A655-47512E04126B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.WebAPI", "DevFramework.WebAPI\DevFramework.WebAPI.csproj", "{2E0BC592-CA69-44ED-BC55-E98E2FDEF6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.WebAPI", "DevFramework.WebAPI\DevFramework.WebAPI.csproj", "{2E0BC592-CA69-44ED-BC55-E98E2FDEF6E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,18 +41,6 @@ Global
 		{8315BF10-D1BC-4F99-B5F2-D53A270DA8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8315BF10-D1BC-4F99-B5F2-D53A270DA8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8315BF10-D1BC-4F99-B5F2-D53A270DA8E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EA48FD8-10BB-4C63-B377-3CF2A002B3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EA48FD8-10BB-4C63-B377-3CF2A002B3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EA48FD8-10BB-4C63-B377-3CF2A002B3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EA48FD8-10BB-4C63-B377-3CF2A002B3A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4E5B471-B595-4424-90C3-06187AB57482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4E5B471-B595-4424-90C3-06187AB57482}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4E5B471-B595-4424-90C3-06187AB57482}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4E5B471-B595-4424-90C3-06187AB57482}.Release|Any CPU.Build.0 = Release|Any CPU
-		{860D6327-23D1-4776-A655-47512E04126B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{860D6327-23D1-4776-A655-47512E04126B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{860D6327-23D1-4776-A655-47512E04126B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{860D6327-23D1-4776-A655-47512E04126B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E0BC592-CA69-44ED-BC55-E98E2FDEF6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E0BC592-CA69-44ED-BC55-E98E2FDEF6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0BC592-CA69-44ED-BC55-E98E2FDEF6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
